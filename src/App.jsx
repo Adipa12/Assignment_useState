@@ -1,6 +1,8 @@
 import { FetchDataComponent } from '../component/FetchDataComponent';
 import { MouseMoveComponent } from '../component/MouseMoveComponent';
 import { UpdateTitleComponent } from '../component/UpdateTitleComponent';
+import {ScrollEventComponent} from '../component/Scrolleventcomponent'
+import { TimerComponent } from '../component/timercomponent';
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
 
 {/* Updating Document Title example */}
 <UpdateTitleComponent />
+< ScrollEventComponent />
+< TimerComponent />
     </>
   )
 }
